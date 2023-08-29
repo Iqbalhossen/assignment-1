@@ -58,7 +58,7 @@ body {
 }
 
 .featured-section {
-    padding: 30px 0px;
+    padding: 60px 0px;
 }
 
 .featured-content {
@@ -86,8 +86,8 @@ body {
 }
 
 .featured-img-section img {
-    width: 259px;
-    height: 300px;
+    width: 195px;
+    height: 240px;
 }
 
 .featured-image1 {
@@ -119,6 +119,19 @@ body {
 
 .featured-img-section a:hover {
     color: #f80f41;
+}
+
+.bannar-section{
+    margin: 70px 0px;
+}
+.bannar{
+    background-color: #2727275d;
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .Hot-Deal-section {
@@ -158,4 +171,125 @@ body {
 
 .Hot-Deal-bannar {
     padding-left: 40px;
+}
+
+.Instagram-section {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Instagram-content{
+    padding: 20px 0px;
+}
+.Instagram-content h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #272727;
+}
+
+.Instagram-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #27272782;
+}
+.Instagram-img-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Instagram-img-section img{
+    width: 90%;
+    height: 100%;
+}
+.Latest-Deals-section{
+    padding-bottom: 50px;
+}
+.Latest-Deals-backimg {
+    background-image: url('../image/Rectangle\ 9.png');
+    padding: 50px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.Latest-Deals-section h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #272727;
+    line-height: 0px;
+}
+.Latest-Deals-section p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2727277f;
+    line-height: 28px;
+}
+.Latest-Deals-section input{
+    margin-top: 50px;
+    margin-right: 10px;
+    border: none;
+    width: 500px;
+    height: 30px;
+    padding: 5px 10px;
+}
+.Latest-Deals-section button{
+    cursor: pointer;
+}
+.Flower-Experts-section{
+    padding: 50px 0px;
+    text-align: center;
+}
+.Flower-Experts-content h1{
+    color: #111010;
+    font-size: 40px;
+    font-weight: 900;
+}
+.Flower-Experts-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2727277f;
+    line-height: 28px;
+}
+.Flower-Experts-img-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Flower-Experts h5{
+    color: #111010;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0px;
+}
+.Flower-Experts p{
+    color: #11101082;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0px;
+}
+.footer-section{
+    background-color: #111010;
+    text-align: center;
+    padding: 50px 0px;
+}
+.footer-section h1{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 900;
+}
+.footer-shop-color{
+    color: #E55473;
+}
+
+.footer-section p{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.copy-right{
+    color: #646161;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
