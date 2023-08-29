@@ -8,14 +8,18 @@ body {
 .container {
     padding: 0px 100px;
 }
-.primary-btn{
+
+.primary-btn {
     padding: 10px 30px;
     background-color: #E55473;
     border: none;
-    cursor: pointer;
     border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
 }
-.primary-btn:hover{
+
+.primary-btn:hover {
     background-color: #f80f41;
 }
 
@@ -39,8 +43,9 @@ body {
     font-size: 55px;
     font-weight: 900;
 }
+
 .header-content p {
-    color: #272727;
+    color: #272727a4;
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
@@ -50,4 +55,107 @@ body {
     width: 500px;
     height: 500px;
 
+}
+
+.featured-section {
+    padding: 30px 0px;
+}
+
+.featured-content {
+    text-align: center;
+}
+
+.featured-content h1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #272727;
+}
+
+.featured-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #272727a4;
+    line-height: 28px;
+}
+
+.featured-img-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.featured-img-section img {
+    width: 259px;
+    height: 300px;
+}
+
+.featured-image1 {
+    background-color: #e5547373;
+    padding: 50px 50px 0px 50px;
+    border-radius: 50% 50% 0px 0px;
+    margin-bottom: 10px;
+}
+
+.featured-image2 {
+    background-color: #0598a085;
+    padding: 50px 50px 0px 50px;
+    border-radius: 50% 50% 0px 0px;
+    margin-bottom: 10px;
+}
+
+.featured-image3 {
+    background-color: #477d1176;
+    padding: 50px 50px 0px 50px;
+    border-radius: 50% 50% 0px 0px;
+    margin-bottom: 10px;
+}
+
+.featured-img-section a {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.featured-img-section a:hover {
+    color: #f80f41;
+}
+
+.Hot-Deal-section {
+    padding: 50px 0px;
+    margin: 40px 0px;
+    background-color: #e554735c;
+}
+
+.Hot-Deal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Hot-Deal-content {
+    padding-right: 40px;
+}
+
+.Hot-Deal-content h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #272727;
+}
+
+.Hot-Deal-content span {
+    color: #E55473;
+}
+
+.Hot-Deal-content p {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 28px;
+    color: #27272775;
+    margin-bottom: 50px;
+}
+
+.Hot-Deal-bannar {
+    padding-left: 40px;
 }
